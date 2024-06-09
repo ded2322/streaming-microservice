@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  video_streaming_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: "video_streaming_app"
+    env_file:
+      - .env
+    command: sh -c "uvicorn core.main:app --host 0.0.0.0 --port 8803"
+    ports:
+      - "8803:8803"

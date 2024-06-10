@@ -10,6 +10,7 @@
 - Отображение дополнительных 50 видео
 - 
 Остальные микросервисы:
+- API-gateway: https://github.com/ded2322/api-gateway.git
 - Микросервис отвечающий за регистрацию пользователей: https://github.com/ded2322/auth-microservice.git
 - Микросервис отвечающий за загрузку видео: https://github.com/ded2322/upload-microservice.git
 - Микросервис отвечающий за показ видео: [Текущий репозиторий]
